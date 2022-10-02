@@ -1,0 +1,34 @@
+
+.G-product{
+
+    background-color: #F7E779;
+    width: 28%;
+    height: 100px;
+
+}
+.G-flex-space-evenly{
+    cursor: pointer;
+    border-radius: 20px;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    /* background-color: beige; */
+    
+}
+.G-flex-space-around{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.G-flex-space-around button{
+    background-color: #F7E779;
+    width: 120px;
+    height: 50px;
+    border-radius: 45px;
+    font-size: 26px;
+
+}
